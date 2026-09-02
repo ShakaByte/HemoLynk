@@ -1,0 +1,55 @@
+facility_id,name,district,type,latitude,longitude,is_rural
+FAC001,Ballari District Hospital 1,Ballari,District Hospital,15.181228,76.778903,False
+FAC002,Ballari District Hospital 2,Ballari,District Hospital,15.071909,76.838363,False
+FAC003,Ballari District Hospital 3,Ballari,District Hospital,15.210341,76.97441,False
+FAC004,Ballari Blood Bank 1,Ballari,Blood Bank,15.257054,76.797482,False
+FAC005,Ballari Blood Bank 2,Ballari,Blood Bank,15.115977,76.780339,False
+FAC006,Ballari Blood Bank 3,Ballari,Blood Bank,15.054991,76.923007,False
+FAC007,Ballari Primary Health Centre 1,Ballari,Primary Health Centre,14.997361,76.831051,True
+FAC008,Ballari Primary Health Centre 2,Ballari,Primary Health Centre,15.184365,76.934882,True
+FAC009,Ballari Primary Health Centre 3,Ballari,Primary Health Centre,15.055532,76.94818,True
+FAC010,Vijayanagara District Hospital 1,Vijayanagara,District Hospital,15.330829,76.31195,False
+FAC011,Vijayanagara District Hospital 2,Vijayanagara,District Hospital,15.329746,76.519442,False
+FAC012,Vijayanagara District Hospital 3,Vijayanagara,District Hospital,15.190075,76.356644,False
+FAC013,Vijayanagara Blood Bank 1,Vijayanagara,Blood Bank,15.375164,76.410978,False
+FAC014,Vijayanagara Blood Bank 2,Vijayanagara,Blood Bank,15.115824,76.339015,False
+FAC015,Vijayanagara Blood Bank 3,Vijayanagara,Blood Bank,15.342248,76.491118,False
+FAC016,Vijayanagara Primary Health Centre 1,Vijayanagara,Primary Health Centre,15.330138,76.52892,True
+FAC017,Vijayanagara Primary Health Centre 2,Vijayanagara,Primary Health Centre,15.248868,76.601935,True
+FAC018,Vijayanagara Primary Health Centre 3,Vijayanagara,Primary Health Centre,15.20156,76.475612,True
+FAC019,Koppal District Hospital 1,Koppal,District Hospital,15.453521,76.190356,False
+FAC020,Koppal District Hospital 2,Koppal,District Hospital,15.463212,76.178006,False
+FAC021,Koppal District Hospital 3,Koppal,District Hospital,15.416072,76.018547,False
+FAC022,Koppal Blood Bank 1,Koppal,Blood Bank,15.273069,76.091616,False
+FAC023,Koppal Blood Bank 2,Koppal,Blood Bank,15.228638,76.074637,False
+FAC024,Koppal Blood Bank 3,Koppal,Blood Bank,15.235,76.088192,False
+FAC025,Koppal Primary Health Centre 1,Koppal,Primary Health Centre,15.395405,76.11425,True
+FAC026,Koppal Primary Health Centre 2,Koppal,Primary Health Centre,15.315754,76.067652,True
+FAC027,Koppal Primary Health Centre 3,Koppal,Primary Health Centre,15.284793,76.285796,True
+FAC028,Raichur District Hospital 1,Raichur,District Hospital,16.252011,77.379039,False
+FAC029,Raichur District Hospital 2,Raichur,District Hospital,16.108942,77.415038,False
+FAC030,Raichur District Hospital 3,Raichur,District Hospital,16.106621,77.310137,False
+FAC031,Raichur Blood Bank 1,Raichur,Blood Bank,16.354457,77.3883,False
+FAC032,Raichur Blood Bank 2,Raichur,Blood Bank,16.224685,77.401684,False
+FAC033,Raichur Blood Bank 3,Raichur,Blood Bank,16.310456,77.4291,False
+FAC034,Raichur Primary Health Centre 1,Raichur,Primary Health Centre,16.126314,77.20593,True
+FAC035,Raichur Primary Health Centre 2,Raichur,Primary Health Centre,16.152236,77.276622,True
+FAC036,Raichur Primary Health Centre 3,Raichur,Primary Health Centre,16.120895,77.479173,True
+FAC037,Davangere District Hospital 1,Davangere,District Hospital,14.57731,75.866203,False
+FAC038,Davangere District Hospital 2,Davangere,District Hospital,14.511032,75.89049,False
+FAC039,Davangere District Hospital 3,Davangere,District Hospital,14.588764,75.909456,False
+FAC040,Davangere Blood Bank 1,Davangere,Blood Bank,14.393864,75.845788,False
+FAC041,Davangere Blood Bank 2,Davangere,Blood Bank,14.48281,75.850622,False
+FAC042,Davangere Blood Bank 3,Davangere,Blood Bank,14.489776,76.041147,False
+FAC043,Davangere Primary Health Centre 1,Davangere,Primary Health Centre,14.43422,75.837596,True
+FAC044,Davangere Primary Health Centre 2,Davangere,Primary Health Centre,14.613661,75.924658,True
+FAC045,Davangere Primary Health Centre 3,Davangere,Primary Health Centre,14.341673,75.785935,True
+FAC046,Chitradurga District Hospital 1,Chitradurga,District Hospital,14.107995,76.436234,False
+FAC047,Chitradurga District Hospital 2,Chitradurga,District Hospital,14.312724,76.374648,False
+FAC048,Chitradurga District Hospital 3,Chitradurga,District Hospital,14.094158,76.362486,False
+FAC049,Chitradurga Blood Bank 1,Chitradurga,Blood Bank,14.373936,76.406734,False
+FAC050,Chitradurga Blood Bank 2,Chitradurga,Blood Bank,14.366424,76.506234,False
+FAC051,Chitradurga Blood Bank 3,Chitradurga,Blood Bank,14.078544,76.464217,False
+FAC052,Chitradurga Primary Health Centre 1,Chitradurga,Primary Health Centre,14.279613,76.409091,True
+FAC053,Chitradurga Primary Health Centre 2,Chitradurga,Primary Health Centre,14.155148,76.440289,True
+FAC054,Chitradurga Primary Health Centre 3,Chitradurga,Primary Health Centre,14.108566,76.37843,True

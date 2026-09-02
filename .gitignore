@@ -1,0 +1,15 @@
+# Python (ml_models)
+__pycache__/
+*.pyc
+
+# Env/secrets (for Firebase keys later)
+.env
+*.env
+
+# OS junk
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
