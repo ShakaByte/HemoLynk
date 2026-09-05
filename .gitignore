@@ -42,3 +42,7 @@ Thumbs.db
 # Environment variables
 .env
 *.env
+
+ml_models/venv/
+ml_models/*.pkl
+ml_models/**/*.pkl
