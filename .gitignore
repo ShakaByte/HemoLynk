@@ -13,3 +13,32 @@ Thumbs.db
 # IDE
 .vscode/
 .idea/
+
+# Python virtual environment
+ml_models/venv/
+ml_models/.venv/
+
+# Python cache
+__pycache__/
+*.pyc
+*.pyo
+
+# ML model files (large, auto-generated)
+*.pkl
+*.h5
+*.pt
+*.pth
+
+# Audit logs (runtime generated)
+ml_models/redistribution/audit_log.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# VSCode
+.vscode/
+
+# Environment variables
+.env
+*.env
