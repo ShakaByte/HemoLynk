@@ -46,3 +46,5 @@ Thumbs.db
 ml_models/venv/
 ml_models/*.pkl
 ml_models/**/*.pkl
+
+hemostruct.txt
