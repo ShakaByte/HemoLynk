@@ -1,0 +1,84 @@
+[
+  {
+    "event_id": "ffc95e54-8854-4a6d-a188-242dad466086",
+    "timestamp": "2026-09-05T18:50:05.021793",
+    "event_type": "TRANSFER_REQUESTED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC001",
+    "details": {
+      "source_facility": "FAC007",
+      "needy_facility": "FAC001",
+      "blood_group": "O+",
+      "component": "Whole Blood",
+      "units_requested": 3,
+      "distance_km": 14.2,
+      "transfer_type": "DIRECT",
+      "auto_confirmed": false
+    }
+  },
+  {
+    "event_id": "760c44f8-391c-4741-a174-59ccfecba0bc",
+    "timestamp": "2026-09-05T18:50:05.029714",
+    "event_type": "TRANSFER_CONFIRMED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC001",
+    "details": {
+      "source_facility": "FAC007",
+      "blood_group": "O+",
+      "component": "Whole Blood",
+      "units_confirmed": 3
+    }
+  },
+  {
+    "event_id": "6ab2436a-e261-4384-88de-1326e3a33d50",
+    "timestamp": "2026-09-05T18:50:05.035116",
+    "event_type": "TRANSFER_DISPATCHED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC007",
+    "details": {
+      "to_facility": "FAC001",
+      "blood_group": "O+",
+      "component": "Whole Blood",
+      "units_dispatched": 3,
+      "prep_time_minutes": 30
+    }
+  },
+  {
+    "event_id": "c8803f6b-c00a-4f86-b019-d48b98451d71",
+    "timestamp": "2026-09-05T18:50:05.038317",
+    "event_type": "TRANSFER_DELIVERED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC001",
+    "details": {
+      "from_facility": "FAC007",
+      "blood_group": "O+",
+      "component": "Whole Blood",
+      "units_delivered": 3
+    }
+  },
+  {
+    "event_id": "8b0a1ba2-8d7e-4d59-8bcb-4153e58aca06",
+    "timestamp": "2026-09-05T18:50:05.041795",
+    "event_type": "COMPATIBILITY_USED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC002",
+    "details": {
+      "original_blood_group": "A-",
+      "alternative_blood_group": "O-",
+      "component": "Whole Blood",
+      "reason": "Exact match unavailable, compatible alternative suggested"
+    }
+  },
+  {
+    "event_id": "b70b64d8-5031-45d2-9360-d50b867d0e21",
+    "timestamp": "2026-09-05T18:50:05.046016",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC003",
+    "details": {
+      "blood_group": "AB-",
+      "component": "Platelets",
+      "reason": "No surplus or compatible alternative found within range"
+    }
+  }
+]

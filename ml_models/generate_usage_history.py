@@ -126,7 +126,7 @@ def generate_usage_history(facilities_df):
                         "blood_group": blood_group,
                         "units_used": units_used,
                         "is_spike_day": is_spike_day,
-                        "spike_reason": spike_reason if is_spike_day else "",
+                        "spike_reason": spike_reason if is_spike_day else "No Spike",
                     })
                     usage_counter += 1
 
