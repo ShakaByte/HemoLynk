@@ -48,3 +48,6 @@ ml_models/*.pkl
 ml_models/**/*.pkl
 
 hemostruct.txt
+
+firebase_key.json
+**/firebase_key.json
