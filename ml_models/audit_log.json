@@ -1,0 +1,3620 @@
+[
+  {
+    "event_id": "25a4808f-508b-44b0-8b04-c7112406b9a0",
+    "timestamp": "2026-09-09T20:13:21.125924",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC001",
+    "details": {
+      "blood_group": "A-",
+      "component": "Platelets",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "0cf1b308-2bdc-4ae6-9455-f8cd22ba0865",
+    "timestamp": "2026-09-09T20:13:21.204636",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC001",
+    "details": {
+      "blood_group": "A-",
+      "component": "RBC",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "d29f1738-a9f3-4cac-ad34-7bd712e35b44",
+    "timestamp": "2026-09-09T20:13:21.287697",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC001",
+    "details": {
+      "blood_group": "AB+",
+      "component": "Whole Blood",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "0d8883fe-3324-482e-9fb6-8a22137502b1",
+    "timestamp": "2026-09-09T20:13:21.361562",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC001",
+    "details": {
+      "blood_group": "B-",
+      "component": "RBC",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "5f5aaf92-240b-4322-8101-2a4404a60083",
+    "timestamp": "2026-09-09T20:13:21.473239",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC001",
+    "details": {
+      "blood_group": "O-",
+      "component": "Plasma",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "edcf1bb7-1d96-409c-9e1b-8b748fd9d888",
+    "timestamp": "2026-09-09T20:13:21.563855",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC001",
+    "details": {
+      "blood_group": "O-",
+      "component": "RBC",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "9c049f21-1c32-4de2-b2e8-3faa5b5e7dbd",
+    "timestamp": "2026-09-09T20:13:21.691971",
+    "event_type": "TRANSFER_REQUESTED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC002",
+    "details": {
+      "source_facility": "FAC001",
+      "needy_facility": "FAC002",
+      "blood_group": "B-",
+      "component": "Plasma",
+      "units_requested": 9,
+      "distance_km": 13.73,
+      "transfer_type": "DIRECT",
+      "auto_confirmed": false
+    }
+  },
+  {
+    "event_id": "55f6cdc6-749f-4147-827f-c33731fb6039",
+    "timestamp": "2026-09-09T20:13:21.702390",
+    "event_type": "COMPATIBILITY_USED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC002",
+    "details": {
+      "original_blood_group": "B-",
+      "alternative_blood_group": "B+",
+      "component": "Plasma",
+      "reason": "Exact match unavailable, compatible alternative suggested"
+    }
+  },
+  {
+    "event_id": "e0529253-7dad-4425-90b3-d8053ef55b03",
+    "timestamp": "2026-09-09T20:13:21.829438",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC003",
+    "details": {
+      "blood_group": "A-",
+      "component": "Platelets",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "93f5f656-2bfb-4a18-acf4-e205e040fdcb",
+    "timestamp": "2026-09-09T20:13:21.978545",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC003",
+    "details": {
+      "blood_group": "AB+",
+      "component": "Platelets",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "df9c103f-a994-4baf-a65f-7761cee6ca1b",
+    "timestamp": "2026-09-09T20:13:22.112609",
+    "event_type": "TRANSFER_REQUESTED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC003",
+    "details": {
+      "source_facility": "FAC004",
+      "needy_facility": "FAC003",
+      "blood_group": "AB+",
+      "component": "RBC",
+      "units_requested": 9,
+      "distance_km": 19.68,
+      "transfer_type": "DIRECT",
+      "auto_confirmed": false
+    }
+  },
+  {
+    "event_id": "ba6dc9ee-88b4-40ed-b00a-d17225e801ff",
+    "timestamp": "2026-09-09T20:13:22.119633",
+    "event_type": "COMPATIBILITY_USED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC003",
+    "details": {
+      "original_blood_group": "AB+",
+      "alternative_blood_group": "A+",
+      "component": "RBC",
+      "reason": "Exact match unavailable, compatible alternative suggested"
+    }
+  },
+  {
+    "event_id": "d847409c-6ff6-44f9-9a6b-84db5d08e09c",
+    "timestamp": "2026-09-09T20:13:22.221699",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC003",
+    "details": {
+      "blood_group": "O-",
+      "component": "RBC",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "345a28e7-53d0-463f-9e32-6cb2f4b8de3f",
+    "timestamp": "2026-09-09T20:13:22.330655",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC004",
+    "details": {
+      "blood_group": "A-",
+      "component": "RBC",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "46eb30a5-dedf-43a6-a647-93e6ab409d05",
+    "timestamp": "2026-09-09T20:13:22.508830",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC004",
+    "details": {
+      "blood_group": "AB+",
+      "component": "RBC",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "ebd1d703-a697-4bbb-8d72-cb55a0f67102",
+    "timestamp": "2026-09-09T20:13:22.625868",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC004",
+    "details": {
+      "blood_group": "AB-",
+      "component": "RBC",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "0d9ca0c0-bda4-4746-9faa-c0e928bc3b13",
+    "timestamp": "2026-09-09T20:13:22.735541",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC004",
+    "details": {
+      "blood_group": "B-",
+      "component": "Platelets",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "fe2ec404-9003-42b0-9b51-dac5029a5e3f",
+    "timestamp": "2026-09-09T20:13:22.938789",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC004",
+    "details": {
+      "blood_group": "B-",
+      "component": "Whole Blood",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "31352fb1-e065-4ef6-804f-fcdd7194f92c",
+    "timestamp": "2026-09-09T20:13:23.058862",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC004",
+    "details": {
+      "blood_group": "O-",
+      "component": "Platelets",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "cb08a279-0a8e-4d90-b0e9-b707c7a82f3e",
+    "timestamp": "2026-09-09T20:13:23.176445",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC004",
+    "details": {
+      "blood_group": "O-",
+      "component": "RBC",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "65448c59-0e4c-4fbc-8d68-233d511c7392",
+    "timestamp": "2026-09-09T20:13:23.277443",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC004",
+    "details": {
+      "blood_group": "O-",
+      "component": "Whole Blood",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "b8d127f0-02fa-412b-b133-2e0aec7d781c",
+    "timestamp": "2026-09-09T20:13:23.393134",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC005",
+    "details": {
+      "blood_group": "AB+",
+      "component": "RBC",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "a7ce5956-68ca-43b3-802a-8a458f7254d9",
+    "timestamp": "2026-09-09T20:13:23.492027",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC005",
+    "details": {
+      "blood_group": "AB-",
+      "component": "Whole Blood",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "48b5afcf-e9ce-4da8-920b-14b63184700e",
+    "timestamp": "2026-09-09T20:13:23.590188",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC005",
+    "details": {
+      "blood_group": "B-",
+      "component": "Whole Blood",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "4bcd5e45-e333-4fa6-b926-8d849cf575e0",
+    "timestamp": "2026-09-09T20:13:23.688645",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC005",
+    "details": {
+      "blood_group": "O-",
+      "component": "RBC",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "763f9f4f-9627-4d47-beed-c1fa8a99efc3",
+    "timestamp": "2026-09-09T20:13:23.789993",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC005",
+    "details": {
+      "blood_group": "O-",
+      "component": "Whole Blood",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "c782f825-ad86-4804-9b23-a17aaa04dbf3",
+    "timestamp": "2026-09-09T20:13:23.890550",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC006",
+    "details": {
+      "blood_group": "A-",
+      "component": "Platelets",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "66f4f797-7622-4c35-983d-af67464aa147",
+    "timestamp": "2026-09-09T20:13:23.987545",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC006",
+    "details": {
+      "blood_group": "A-",
+      "component": "RBC",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "fea2574d-89c1-4f9d-9dca-7235c6629e55",
+    "timestamp": "2026-09-09T20:13:24.095369",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC006",
+    "details": {
+      "blood_group": "B-",
+      "component": "Whole Blood",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "f92b88c5-317c-4e04-aa01-4f0400eb0a90",
+    "timestamp": "2026-09-09T20:13:24.188242",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC008",
+    "details": {
+      "blood_group": "O-",
+      "component": "Whole Blood",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "da263bbe-b873-4ca3-8c38-d2bbce102c99",
+    "timestamp": "2026-09-09T20:13:24.302525",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC010",
+    "details": {
+      "blood_group": "AB+",
+      "component": "Platelets",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "2902109a-a3dc-4475-92d6-45e8e8ddd2c8",
+    "timestamp": "2026-09-09T20:13:24.403294",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC010",
+    "details": {
+      "blood_group": "B-",
+      "component": "Whole Blood",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "43542716-afb8-4355-8bbb-ac57e642823e",
+    "timestamp": "2026-09-09T20:13:24.527864",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC011",
+    "details": {
+      "blood_group": "A-",
+      "component": "Plasma",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "cee7c0a7-7d01-4e3e-a6de-5abef0a8daf0",
+    "timestamp": "2026-09-09T20:13:24.643541",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC011",
+    "details": {
+      "blood_group": "AB+",
+      "component": "Platelets",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "01f3c9d8-c845-405d-9821-aa74d8374c4a",
+    "timestamp": "2026-09-09T20:13:24.744206",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC012",
+    "details": {
+      "blood_group": "A-",
+      "component": "RBC",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "0e949784-15da-4971-a621-4a800212b4f5",
+    "timestamp": "2026-09-09T20:13:24.874008",
+    "event_type": "TRANSFER_REQUESTED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC012",
+    "details": {
+      "source_facility": "FAC013",
+      "needy_facility": "FAC012",
+      "blood_group": "AB+",
+      "component": "RBC",
+      "units_requested": 9,
+      "distance_km": 21.39,
+      "transfer_type": "DIRECT",
+      "auto_confirmed": false
+    }
+  },
+  {
+    "event_id": "ab9bdb98-7e7a-434c-9085-0caa789dec35",
+    "timestamp": "2026-09-09T20:13:24.881770",
+    "event_type": "COMPATIBILITY_USED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC012",
+    "details": {
+      "original_blood_group": "AB+",
+      "alternative_blood_group": "A+",
+      "component": "RBC",
+      "reason": "Exact match unavailable, compatible alternative suggested"
+    }
+  },
+  {
+    "event_id": "506e82fb-d479-47df-98b2-db91e8db4b3a",
+    "timestamp": "2026-09-09T20:13:24.998709",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC012",
+    "details": {
+      "blood_group": "AB+",
+      "component": "Whole Blood",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "8403d9f8-5c64-441d-9a98-15002ec44fcf",
+    "timestamp": "2026-09-09T20:13:25.098736",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC012",
+    "details": {
+      "blood_group": "AB-",
+      "component": "Platelets",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "b516385d-d570-41a4-9e5e-4cdef4c6d08b",
+    "timestamp": "2026-09-09T20:13:25.200846",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC012",
+    "details": {
+      "blood_group": "AB-",
+      "component": "RBC",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "8ccf06a7-8f3b-4624-8be2-fdff76a25e57",
+    "timestamp": "2026-09-09T20:13:25.320894",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC012",
+    "details": {
+      "blood_group": "B-",
+      "component": "Plasma",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "3892d7be-16f3-411e-954a-73cfa4fa9fa9",
+    "timestamp": "2026-09-09T20:13:25.423776",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC012",
+    "details": {
+      "blood_group": "B-",
+      "component": "RBC",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "6a7a2d9e-1f02-4776-b337-3786938f4dc5",
+    "timestamp": "2026-09-09T20:13:25.525832",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC012",
+    "details": {
+      "blood_group": "O-",
+      "component": "Platelets",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "47ec14ab-fb82-49ea-b488-fb1fb8dd1f89",
+    "timestamp": "2026-09-09T20:13:25.629225",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC012",
+    "details": {
+      "blood_group": "O-",
+      "component": "Whole Blood",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "f9e599c8-844e-46f8-85a5-e07e709fd1f4",
+    "timestamp": "2026-09-09T20:13:25.732549",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC013",
+    "details": {
+      "blood_group": "A-",
+      "component": "Platelets",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "b3dfa026-7587-4879-af77-da380ff4ed8f",
+    "timestamp": "2026-09-09T20:13:25.835974",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC013",
+    "details": {
+      "blood_group": "AB-",
+      "component": "Whole Blood",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "1b3b6fb6-eea8-4dda-84ce-dc2f36d682ff",
+    "timestamp": "2026-09-09T20:13:25.937345",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC013",
+    "details": {
+      "blood_group": "B-",
+      "component": "Whole Blood",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "a699387e-08c5-49aa-bb56-c0ba6b60c095",
+    "timestamp": "2026-09-09T20:13:26.034791",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC014",
+    "details": {
+      "blood_group": "AB-",
+      "component": "Platelets",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "86480a88-2d21-49ab-9597-d8efaefe4bcb",
+    "timestamp": "2026-09-09T20:13:26.134619",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC014",
+    "details": {
+      "blood_group": "AB-",
+      "component": "RBC",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "4b841774-da69-48e4-af14-7fdac19c2d73",
+    "timestamp": "2026-09-09T20:13:26.239101",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC014",
+    "details": {
+      "blood_group": "O-",
+      "component": "Platelets",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "c28eda57-1363-4255-8a18-f72ac6088bd4",
+    "timestamp": "2026-09-09T20:13:26.336206",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC015",
+    "details": {
+      "blood_group": "A-",
+      "component": "Platelets",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "5e03b49e-b7ef-4ca5-98f7-a96908521d05",
+    "timestamp": "2026-09-09T20:13:26.445642",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC015",
+    "details": {
+      "blood_group": "A-",
+      "component": "RBC",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "63a86f63-732f-4b3d-9a74-d180376aeabe",
+    "timestamp": "2026-09-09T20:13:26.568935",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC015",
+    "details": {
+      "blood_group": "AB+",
+      "component": "RBC",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "13977523-5830-43a0-a7e4-7482f5374615",
+    "timestamp": "2026-09-09T20:13:26.668923",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC015",
+    "details": {
+      "blood_group": "O-",
+      "component": "RBC",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "7c146762-5ca1-4417-ab98-d52b9b429b24",
+    "timestamp": "2026-09-09T20:13:26.768062",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC017",
+    "details": {
+      "blood_group": "O-",
+      "component": "Whole Blood",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "a7e15599-bd87-4721-bddf-d3d63b0e2371",
+    "timestamp": "2026-09-09T20:13:26.870364",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC019",
+    "details": {
+      "blood_group": "A-",
+      "component": "RBC",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "d9805003-f839-4443-95df-cd8bc1e27c0a",
+    "timestamp": "2026-09-09T20:13:26.987372",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC019",
+    "details": {
+      "blood_group": "AB-",
+      "component": "Plasma",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "a507e692-ea7f-4a63-b896-303c4b7cbd51",
+    "timestamp": "2026-09-09T20:13:27.122344",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC019",
+    "details": {
+      "blood_group": "B-",
+      "component": "Plasma",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "f04cb7e4-d5e0-454e-8496-31849bfe2dd9",
+    "timestamp": "2026-09-09T20:13:27.222684",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC019",
+    "details": {
+      "blood_group": "O-",
+      "component": "Platelets",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "9a5aea60-7d3e-469d-9376-71634f9fe42a",
+    "timestamp": "2026-09-09T20:13:27.328560",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC020",
+    "details": {
+      "blood_group": "AB+",
+      "component": "Plasma",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "0130c736-7dc8-4464-b79f-2f0b63f4d5d0",
+    "timestamp": "2026-09-09T20:13:27.451699",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC020",
+    "details": {
+      "blood_group": "AB+",
+      "component": "Whole Blood",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "4fc9b015-4baa-4661-b052-af3e1c6ad3b3",
+    "timestamp": "2026-09-09T20:13:27.553402",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC020",
+    "details": {
+      "blood_group": "O-",
+      "component": "RBC",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "d9dcccbb-f61d-479f-ba66-17239bbda8b0",
+    "timestamp": "2026-09-09T20:13:27.710313",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC021",
+    "details": {
+      "blood_group": "AB+",
+      "component": "Platelets",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "6e42fea6-0b28-48c5-8992-ab9e9634fb0a",
+    "timestamp": "2026-09-09T20:13:27.836518",
+    "event_type": "TRANSFER_REQUESTED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC021",
+    "details": {
+      "source_facility": "FAC022",
+      "needy_facility": "FAC021",
+      "blood_group": "AB+",
+      "component": "RBC",
+      "units_requested": 9,
+      "distance_km": 17.73,
+      "transfer_type": "DIRECT",
+      "auto_confirmed": false
+    }
+  },
+  {
+    "event_id": "16001c5f-4992-4500-9701-97d79212c3bf",
+    "timestamp": "2026-09-09T20:13:27.846377",
+    "event_type": "COMPATIBILITY_USED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC021",
+    "details": {
+      "original_blood_group": "AB+",
+      "alternative_blood_group": "A+",
+      "component": "RBC",
+      "reason": "Exact match unavailable, compatible alternative suggested"
+    }
+  },
+  {
+    "event_id": "a68642c0-f73b-4bdf-a46c-05d4e28fd1c6",
+    "timestamp": "2026-09-09T20:13:27.941818",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC021",
+    "details": {
+      "blood_group": "AB+",
+      "component": "Whole Blood",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "1da3f4eb-51ad-42cd-86ca-f67fb440e8ba",
+    "timestamp": "2026-09-09T20:13:28.025201",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC021",
+    "details": {
+      "blood_group": "B-",
+      "component": "Platelets",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "5bf15eaf-ec64-4ee7-86f1-e1153e908516",
+    "timestamp": "2026-09-09T20:13:28.108941",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC021",
+    "details": {
+      "blood_group": "B-",
+      "component": "Whole Blood",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "053101b5-aec0-45a3-8823-d6c4211e7ce9",
+    "timestamp": "2026-09-09T20:13:28.199209",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC021",
+    "details": {
+      "blood_group": "O-",
+      "component": "Plasma",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "e42e4c5a-8c62-4fc9-b4e5-c8027a1b30b9",
+    "timestamp": "2026-09-09T20:13:28.279164",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC021",
+    "details": {
+      "blood_group": "O-",
+      "component": "RBC",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "d8a2762f-8c68-4b1e-a6d9-17ec9e2a753e",
+    "timestamp": "2026-09-09T20:13:28.379139",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC022",
+    "details": {
+      "blood_group": "A-",
+      "component": "Platelets",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "3ab1eb2f-5a7b-4851-8a6f-f754ef911d46",
+    "timestamp": "2026-09-09T20:13:28.500462",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC022",
+    "details": {
+      "blood_group": "AB+",
+      "component": "Whole Blood",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "a8561219-10a6-49c3-a725-7324cc2d3147",
+    "timestamp": "2026-09-09T20:13:28.617935",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC022",
+    "details": {
+      "blood_group": "O-",
+      "component": "Platelets",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "d2d9b180-3e16-47dd-a8ff-76c10199130f",
+    "timestamp": "2026-09-09T20:13:28.725927",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC022",
+    "details": {
+      "blood_group": "O-",
+      "component": "RBC",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "e3ae4b25-776c-451e-8bee-5791bc47162a",
+    "timestamp": "2026-09-09T20:13:28.833780",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC023",
+    "details": {
+      "blood_group": "O-",
+      "component": "RBC",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "ab90fdda-31b8-474c-b5e0-d355dcf62310",
+    "timestamp": "2026-09-09T20:13:28.946131",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC024",
+    "details": {
+      "blood_group": "A-",
+      "component": "RBC",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "46412d0f-c1d0-4123-a00c-2af38fb61515",
+    "timestamp": "2026-09-09T20:13:29.057994",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC024",
+    "details": {
+      "blood_group": "B-",
+      "component": "RBC",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "d12c7b4e-735d-4b67-adeb-c3ccd52093f5",
+    "timestamp": "2026-09-09T20:13:29.165020",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC025",
+    "details": {
+      "blood_group": "O-",
+      "component": "Whole Blood",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "71b2a652-414f-43ff-a991-72acf6472f76",
+    "timestamp": "2026-09-09T20:13:29.269744",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC027",
+    "details": {
+      "blood_group": "O-",
+      "component": "Whole Blood",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "50f44edc-01ed-465b-bb32-ec73acc46c23",
+    "timestamp": "2026-09-09T20:13:29.375058",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC028",
+    "details": {
+      "blood_group": "A-",
+      "component": "Platelets",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "8dab3863-15ef-4b5a-9f6b-eadba64912cd",
+    "timestamp": "2026-09-09T20:13:29.485854",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC028",
+    "details": {
+      "blood_group": "A-",
+      "component": "Whole Blood",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "f48a7a34-c739-4aeb-a8d2-e7c74d734c0c",
+    "timestamp": "2026-09-09T20:13:29.611588",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC028",
+    "details": {
+      "blood_group": "O-",
+      "component": "Plasma",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "7d45ec80-1ed5-4688-af89-3f6d5b2a122b",
+    "timestamp": "2026-09-09T20:13:29.712736",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC028",
+    "details": {
+      "blood_group": "O-",
+      "component": "RBC",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "630a8fcd-36b1-41ef-b1b6-611649b18f7f",
+    "timestamp": "2026-09-09T20:13:29.824794",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC029",
+    "details": {
+      "blood_group": "A-",
+      "component": "Whole Blood",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "0ec91456-d007-4bbe-9616-d3d0472774d2",
+    "timestamp": "2026-09-09T20:13:29.947769",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC029",
+    "details": {
+      "blood_group": "AB+",
+      "component": "Whole Blood",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "c3a070a7-da19-4bc4-ad39-338b5ed57f6f",
+    "timestamp": "2026-09-09T20:13:30.071344",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC029",
+    "details": {
+      "blood_group": "B-",
+      "component": "Plasma",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "b4271680-c87e-410c-b9f7-e93dea1d23fd",
+    "timestamp": "2026-09-09T20:13:30.198897",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC030",
+    "details": {
+      "blood_group": "A-",
+      "component": "Plasma",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "126dde5b-9b47-465e-82d7-0d2b227ce1ad",
+    "timestamp": "2026-09-09T20:13:30.305382",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC030",
+    "details": {
+      "blood_group": "A-",
+      "component": "Platelets",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "ae481bb7-4f78-45d4-98ad-cae05ee3e768",
+    "timestamp": "2026-09-09T20:13:30.413409",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC030",
+    "details": {
+      "blood_group": "A-",
+      "component": "RBC",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "8850df0e-39ad-4eed-90d6-7d69b514c67f",
+    "timestamp": "2026-09-09T20:13:30.522015",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC030",
+    "details": {
+      "blood_group": "AB-",
+      "component": "Plasma",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "351fdba5-b7b4-4386-a434-3809b90de353",
+    "timestamp": "2026-09-09T20:13:30.625055",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC030",
+    "details": {
+      "blood_group": "B-",
+      "component": "Platelets",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "52415b7c-d07d-43de-b3c1-0f761029860f",
+    "timestamp": "2026-09-09T20:13:30.734395",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC030",
+    "details": {
+      "blood_group": "B-",
+      "component": "Whole Blood",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "2a83c48a-8951-4d0c-a38f-fe925d532b5d",
+    "timestamp": "2026-09-09T20:13:30.837218",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC030",
+    "details": {
+      "blood_group": "O-",
+      "component": "Plasma",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "baf90b80-4187-4ae3-a292-9a7b3fb0e711",
+    "timestamp": "2026-09-09T20:13:30.922154",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC031",
+    "details": {
+      "blood_group": "A-",
+      "component": "RBC",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "26caea21-4df8-41cf-bf9b-52befd368590",
+    "timestamp": "2026-09-09T20:13:31.032828",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC031",
+    "details": {
+      "blood_group": "AB+",
+      "component": "Platelets",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "4e7c84cb-7a87-40e0-a8ee-6945699eef99",
+    "timestamp": "2026-09-09T20:13:31.162476",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC032",
+    "details": {
+      "blood_group": "B-",
+      "component": "RBC",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "cb97f499-3e73-4334-addc-d8b1c7edb15e",
+    "timestamp": "2026-09-09T20:13:31.292581",
+    "event_type": "TRANSFER_REQUESTED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC033",
+    "details": {
+      "source_facility": "FAC031",
+      "needy_facility": "FAC033",
+      "blood_group": "A+",
+      "component": "RBC",
+      "units_requested": 5,
+      "distance_km": 6.55,
+      "transfer_type": "DIRECT",
+      "auto_confirmed": false
+    }
+  },
+  {
+    "event_id": "58d54a9c-9573-4d30-86c5-dfd5b7d7b53f",
+    "timestamp": "2026-09-09T20:13:31.308436",
+    "event_type": "COMPATIBILITY_USED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC033",
+    "details": {
+      "original_blood_group": "A+",
+      "alternative_blood_group": "O+",
+      "component": "RBC",
+      "reason": "Exact match unavailable, compatible alternative suggested"
+    }
+  },
+  {
+    "event_id": "5e31174a-5735-4d04-9162-efb6e0020966",
+    "timestamp": "2026-09-09T20:13:31.415545",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC033",
+    "details": {
+      "blood_group": "A-",
+      "component": "Platelets",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "ead93e86-9cae-411b-8824-9150c3138405",
+    "timestamp": "2026-09-09T20:13:31.526317",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC033",
+    "details": {
+      "blood_group": "A-",
+      "component": "RBC",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "aca3a661-373e-4b7f-a342-4f781b3b833a",
+    "timestamp": "2026-09-09T20:13:31.640594",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC033",
+    "details": {
+      "blood_group": "AB+",
+      "component": "Whole Blood",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "0fed72f4-2745-4212-a5cd-448eca5fe1ca",
+    "timestamp": "2026-09-09T20:13:31.730634",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC035",
+    "details": {
+      "blood_group": "O-",
+      "component": "Whole Blood",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "8acd651e-3c99-4b5c-aba2-5998856bcd98",
+    "timestamp": "2026-09-09T20:13:31.820234",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC036",
+    "details": {
+      "blood_group": "O-",
+      "component": "Whole Blood",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "d76f1975-1ccb-4367-a9e1-9308016c2743",
+    "timestamp": "2026-09-09T20:13:31.906785",
+    "event_type": "TRANSFER_REQUESTED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC037",
+    "details": {
+      "source_facility": "FAC041",
+      "needy_facility": "FAC037",
+      "blood_group": "A+",
+      "component": "Platelets",
+      "units_requested": 9,
+      "distance_km": 10.64,
+      "transfer_type": "DIRECT",
+      "auto_confirmed": false
+    }
+  },
+  {
+    "event_id": "527b2a6f-0048-406f-ac3c-417b9dd90d20",
+    "timestamp": "2026-09-09T20:13:32.021063",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC037",
+    "details": {
+      "blood_group": "A-",
+      "component": "RBC",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "1b235325-6578-43f3-a469-74e3c12625a5",
+    "timestamp": "2026-09-09T20:13:32.146882",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC037",
+    "details": {
+      "blood_group": "AB+",
+      "component": "Platelets",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "e1695edd-4e91-4436-a5a1-045c1e2a7573",
+    "timestamp": "2026-09-09T20:13:32.257208",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC037",
+    "details": {
+      "blood_group": "AB-",
+      "component": "Whole Blood",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "6c4a3ad4-8a09-4c7d-aaef-b20eec0f877e",
+    "timestamp": "2026-09-09T20:13:32.371601",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC037",
+    "details": {
+      "blood_group": "B-",
+      "component": "Platelets",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "d59b5f1f-72a7-4350-809a-29aa9e8d36d3",
+    "timestamp": "2026-09-09T20:13:32.519345",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC037",
+    "details": {
+      "blood_group": "B-",
+      "component": "Whole Blood",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "85940dd1-a4a2-425c-9079-185dcafffc81",
+    "timestamp": "2026-09-09T20:13:32.664706",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC037",
+    "details": {
+      "blood_group": "O-",
+      "component": "Plasma",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "c5780472-6d43-4119-abbf-90fe050373ce",
+    "timestamp": "2026-09-09T20:13:32.770682",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC037",
+    "details": {
+      "blood_group": "O-",
+      "component": "Platelets",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "26072284-2584-45c7-9b7f-1fa95187a153",
+    "timestamp": "2026-09-09T20:13:32.903940",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC038",
+    "details": {
+      "blood_group": "A-",
+      "component": "Plasma",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "fc54c357-ed74-4e41-a07d-646a2480f535",
+    "timestamp": "2026-09-09T20:13:33.011776",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC038",
+    "details": {
+      "blood_group": "A-",
+      "component": "Platelets",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "a4e668aa-7aca-422e-ab98-5afdf6df6cd2",
+    "timestamp": "2026-09-09T20:13:33.127114",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC038",
+    "details": {
+      "blood_group": "O-",
+      "component": "Whole Blood",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "dfb067f3-5095-4c39-82d4-5238c8b0d177",
+    "timestamp": "2026-09-09T20:13:33.257426",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC039",
+    "details": {
+      "blood_group": "A-",
+      "component": "Plasma",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "09e767fa-f20e-4b78-87c7-2d110220f2f5",
+    "timestamp": "2026-09-09T20:13:33.371317",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC039",
+    "details": {
+      "blood_group": "AB+",
+      "component": "Plasma",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "84c7cc1f-d033-43ea-826d-4dd2addd3921",
+    "timestamp": "2026-09-09T20:13:33.482660",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC039",
+    "details": {
+      "blood_group": "AB-",
+      "component": "Plasma",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "cf2ea52b-344b-4fbe-9099-0cfc17034405",
+    "timestamp": "2026-09-09T20:13:33.594741",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC039",
+    "details": {
+      "blood_group": "AB-",
+      "component": "Whole Blood",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "165b8f9d-63ed-49f6-b550-da6d54de9155",
+    "timestamp": "2026-09-09T20:13:33.708009",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC039",
+    "details": {
+      "blood_group": "O-",
+      "component": "RBC",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "bb1bb015-6c29-4815-817c-e4b1949968ec",
+    "timestamp": "2026-09-09T20:13:33.824178",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC039",
+    "details": {
+      "blood_group": "O-",
+      "component": "Whole Blood",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "34942168-3d9c-47d9-bde7-2f660df87f15",
+    "timestamp": "2026-09-09T20:13:33.954921",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC040",
+    "details": {
+      "blood_group": "AB+",
+      "component": "Whole Blood",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "0ee3f131-450c-49fa-9af4-02ad30086402",
+    "timestamp": "2026-09-09T20:13:34.069956",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC040",
+    "details": {
+      "blood_group": "B-",
+      "component": "Platelets",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "cce541c8-556c-42de-a1c9-6014e4352fff",
+    "timestamp": "2026-09-09T20:13:34.173554",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC040",
+    "details": {
+      "blood_group": "B-",
+      "component": "Whole Blood",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "ac6e2c5f-0551-4ee2-9948-48f9909b96b7",
+    "timestamp": "2026-09-09T20:13:34.263556",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC040",
+    "details": {
+      "blood_group": "O-",
+      "component": "Platelets",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "f2c01dca-9948-43cc-8b9c-cdef1421767b",
+    "timestamp": "2026-09-09T20:13:34.397357",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC041",
+    "details": {
+      "blood_group": "AB+",
+      "component": "Platelets",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "b62ca88e-1131-4dbe-817e-1514c93df79e",
+    "timestamp": "2026-09-09T20:13:34.522885",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC041",
+    "details": {
+      "blood_group": "AB+",
+      "component": "Whole Blood",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "032b1089-af9d-4da1-a5b6-4414e3326cab",
+    "timestamp": "2026-09-09T20:13:34.632176",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC042",
+    "details": {
+      "blood_group": "A-",
+      "component": "Platelets",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "e6cd16ec-630e-471a-be57-c8c51751c38e",
+    "timestamp": "2026-09-09T20:13:34.739634",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC042",
+    "details": {
+      "blood_group": "A-",
+      "component": "RBC",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "95f493ad-d114-4ff1-aa24-44c24b3c48ed",
+    "timestamp": "2026-09-09T20:13:34.852596",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC042",
+    "details": {
+      "blood_group": "AB-",
+      "component": "RBC",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "7480a2da-a7e6-4ed3-8389-998cda027da1",
+    "timestamp": "2026-09-09T20:13:34.966316",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC044",
+    "details": {
+      "blood_group": "O-",
+      "component": "Whole Blood",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "e9a01528-3f35-4c1a-9eaf-f53f99ae9ac4",
+    "timestamp": "2026-09-09T20:13:35.078909",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC046",
+    "details": {
+      "blood_group": "A-",
+      "component": "Platelets",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "2f72ebc2-4530-4268-9ff8-bff53e5cd89b",
+    "timestamp": "2026-09-09T20:13:35.197742",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC046",
+    "details": {
+      "blood_group": "AB-",
+      "component": "Plasma",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "daba5149-2f6d-494b-9b0d-deca3e857233",
+    "timestamp": "2026-09-09T20:13:35.333316",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC046",
+    "details": {
+      "blood_group": "AB-",
+      "component": "Platelets",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "f7d324b3-e28f-499b-862f-871a9fa73074",
+    "timestamp": "2026-09-09T20:13:35.449413",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC046",
+    "details": {
+      "blood_group": "B-",
+      "component": "RBC",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "4b088ff8-3d02-4718-8a4e-7d9ce3e28e98",
+    "timestamp": "2026-09-09T20:13:35.595516",
+    "event_type": "TRANSFER_REQUESTED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC046",
+    "details": {
+      "source_facility": "FAC048",
+      "needy_facility": "FAC046",
+      "blood_group": "O-",
+      "component": "Plasma",
+      "units_requested": 9,
+      "distance_km": 8.1,
+      "transfer_type": "DIRECT",
+      "auto_confirmed": false
+    }
+  },
+  {
+    "event_id": "99f47f8c-9b71-460e-8ab4-3e8f077211f5",
+    "timestamp": "2026-09-09T20:13:35.614867",
+    "event_type": "COMPATIBILITY_USED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC046",
+    "details": {
+      "original_blood_group": "O-",
+      "alternative_blood_group": "O+",
+      "component": "Plasma",
+      "reason": "Exact match unavailable, compatible alternative suggested"
+    }
+  },
+  {
+    "event_id": "629fcf49-a409-4819-84d9-4e0887404800",
+    "timestamp": "2026-09-09T20:13:35.729734",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC046",
+    "details": {
+      "blood_group": "O-",
+      "component": "RBC",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "3714fd26-d1de-4016-9f73-31e0dde8468b",
+    "timestamp": "2026-09-09T20:13:35.844323",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC047",
+    "details": {
+      "blood_group": "AB-",
+      "component": "Platelets",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "e809d05d-9232-4d31-8fa2-6fca58979b39",
+    "timestamp": "2026-09-09T20:13:35.975872",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC047",
+    "details": {
+      "blood_group": "B-",
+      "component": "Plasma",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "cf9c5cb1-68e1-4131-af24-ccad9b0c0f50",
+    "timestamp": "2026-09-09T20:13:36.091614",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC047",
+    "details": {
+      "blood_group": "B-",
+      "component": "RBC",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "85ef5a1e-45ee-4c55-9ff8-303d2f51e109",
+    "timestamp": "2026-09-09T20:13:36.227801",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC047",
+    "details": {
+      "blood_group": "O-",
+      "component": "Plasma",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "0ad4119d-37e3-4f4b-9bc0-7380a710c671",
+    "timestamp": "2026-09-09T20:13:36.344307",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC047",
+    "details": {
+      "blood_group": "O-",
+      "component": "Platelets",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "edb80182-55ba-477d-a0b8-bdca38388058",
+    "timestamp": "2026-09-09T20:13:36.451406",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC047",
+    "details": {
+      "blood_group": "O-",
+      "component": "RBC",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "19acd3a5-ffd7-4a01-be8b-e00099b01fff",
+    "timestamp": "2026-09-09T20:13:36.569073",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC048",
+    "details": {
+      "blood_group": "A-",
+      "component": "RBC",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "003384e1-cd59-4678-be51-05302125f1f4",
+    "timestamp": "2026-09-09T20:13:36.694469",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC048",
+    "details": {
+      "blood_group": "AB+",
+      "component": "RBC",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "41209118-2797-4b1a-bb83-d2581788d053",
+    "timestamp": "2026-09-09T20:13:36.831580",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC048",
+    "details": {
+      "blood_group": "AB+",
+      "component": "Whole Blood",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "996857db-6666-4d30-93d6-b912e7ab64d5",
+    "timestamp": "2026-09-09T20:13:36.967467",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC048",
+    "details": {
+      "blood_group": "B-",
+      "component": "Plasma",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "9528d4ab-c577-4277-b3dc-2fa4d996e5da",
+    "timestamp": "2026-09-09T20:13:37.141487",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC048",
+    "details": {
+      "blood_group": "O-",
+      "component": "Platelets",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "0152a5a8-8d75-42ee-8552-69b4c6e46195",
+    "timestamp": "2026-09-09T20:13:37.277639",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC049",
+    "details": {
+      "blood_group": "AB+",
+      "component": "RBC",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "31932e14-be0b-4d05-8104-bb8e20ff077c",
+    "timestamp": "2026-09-09T20:13:37.392514",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC050",
+    "details": {
+      "blood_group": "A-",
+      "component": "Platelets",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "ac83a3f8-6134-4bfa-879b-5b68e7d7a358",
+    "timestamp": "2026-09-09T20:13:37.506915",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC050",
+    "details": {
+      "blood_group": "A-",
+      "component": "Whole Blood",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "cfb117e2-ac2c-4f88-b73e-931f1e2a3b27",
+    "timestamp": "2026-09-09T20:13:37.626653",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC050",
+    "details": {
+      "blood_group": "B-",
+      "component": "Platelets",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "ffc7cdd0-0ccb-41f5-b288-fb74d6ba1d6b",
+    "timestamp": "2026-09-09T20:13:37.744320",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC050",
+    "details": {
+      "blood_group": "B-",
+      "component": "Whole Blood",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "bcb44ba6-a892-476a-b1b8-32e482988087",
+    "timestamp": "2026-09-09T20:13:37.863136",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC051",
+    "details": {
+      "blood_group": "A-",
+      "component": "Platelets",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "1d333fa9-bd94-4dac-9d7d-99ca044274cd",
+    "timestamp": "2026-09-09T20:13:37.997632",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC051",
+    "details": {
+      "blood_group": "AB+",
+      "component": "Platelets",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "3961452b-06d6-45a2-8bcf-a2feae52ce49",
+    "timestamp": "2026-09-09T20:13:38.138025",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC051",
+    "details": {
+      "blood_group": "AB+",
+      "component": "RBC",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "6a818444-d2f5-41fe-b686-2e9e610f066d",
+    "timestamp": "2026-09-09T20:13:38.255833",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC051",
+    "details": {
+      "blood_group": "AB-",
+      "component": "RBC",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "0d4a8e44-81fe-4a95-9d36-146eec417c01",
+    "timestamp": "2026-09-09T20:13:38.370181",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC051",
+    "details": {
+      "blood_group": "O-",
+      "component": "RBC",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "da004071-6bc6-4dd8-abb9-f66ea756acf2",
+    "timestamp": "2026-09-09T20:13:38.484667",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC051",
+    "details": {
+      "blood_group": "O-",
+      "component": "Whole Blood",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "5de47f12-84e4-4613-a6de-800766118f46",
+    "timestamp": "2026-09-09T20:13:38.607924",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC052",
+    "details": {
+      "blood_group": "O-",
+      "component": "Whole Blood",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "3eef3355-988a-471b-9aa5-b0e77de738ca",
+    "timestamp": "2026-09-09T20:13:38.744992",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC001",
+    "details": {
+      "blood_group": "AB+",
+      "component": "RBC",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "cd5d3312-53d5-4f60-a44c-25725e9a7188",
+    "timestamp": "2026-09-09T20:13:38.862315",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC001",
+    "details": {
+      "blood_group": "O-",
+      "component": "Whole Blood",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "b4a2ca4f-4a20-4ac4-8935-f82dfa664391",
+    "timestamp": "2026-09-09T20:13:38.991204",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC002",
+    "details": {
+      "blood_group": "AB+",
+      "component": "Platelets",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "46e52229-aaaf-46da-88a3-0133db8157f9",
+    "timestamp": "2026-09-09T20:13:39.126470",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC002",
+    "details": {
+      "blood_group": "AB+",
+      "component": "Whole Blood",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "a6e9e653-6041-4a35-9bbc-9d962d6ac3b5",
+    "timestamp": "2026-09-09T20:13:39.243809",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC002",
+    "details": {
+      "blood_group": "O-",
+      "component": "RBC",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "2f5f5027-308c-450a-89bd-25eb601773d2",
+    "timestamp": "2026-09-09T20:13:39.357728",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC003",
+    "details": {
+      "blood_group": "A-",
+      "component": "Whole Blood",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "5831ada7-24db-4345-afd2-69cf35e60662",
+    "timestamp": "2026-09-09T20:13:39.497919",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC004",
+    "details": {
+      "blood_group": "A-",
+      "component": "Whole Blood",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "d83e4147-f8cc-4390-b7ec-57067a856447",
+    "timestamp": "2026-09-09T20:13:39.641983",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC004",
+    "details": {
+      "blood_group": "AB+",
+      "component": "Platelets",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "04b804c4-c8ef-455c-951b-d06fc21b2674",
+    "timestamp": "2026-09-09T20:13:39.771331",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC005",
+    "details": {
+      "blood_group": "AB+",
+      "component": "Whole Blood",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "479d5ce5-3716-4bdb-a40f-9ffd6a1974b2",
+    "timestamp": "2026-09-09T20:13:39.951838",
+    "event_type": "TRANSFER_REQUESTED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC005",
+    "details": {
+      "source_facility": "FAC006",
+      "needy_facility": "FAC005",
+      "blood_group": "B+",
+      "component": "Whole Blood",
+      "units_requested": 4,
+      "distance_km": 16.75,
+      "transfer_type": "DIRECT",
+      "auto_confirmed": false
+    }
+  },
+  {
+    "event_id": "7f7902e2-b548-4465-b768-a4a13712b2f6",
+    "timestamp": "2026-09-09T20:13:39.975083",
+    "event_type": "COMPATIBILITY_USED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC005",
+    "details": {
+      "original_blood_group": "B+",
+      "alternative_blood_group": "O+",
+      "component": "Whole Blood",
+      "reason": "Exact match unavailable, compatible alternative suggested"
+    }
+  },
+  {
+    "event_id": "46574768-81de-41f9-b377-8d9a2606c3d2",
+    "timestamp": "2026-09-09T20:13:40.113484",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC006",
+    "details": {
+      "blood_group": "AB+",
+      "component": "Platelets",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "4d55d846-0e07-4a79-af3b-20440460ba55",
+    "timestamp": "2026-09-09T20:13:40.242749",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC006",
+    "details": {
+      "blood_group": "AB+",
+      "component": "RBC",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "14cf8ef8-9d80-4bbc-892c-92b1d7bc1803",
+    "timestamp": "2026-09-09T20:13:40.351280",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC006",
+    "details": {
+      "blood_group": "AB+",
+      "component": "Whole Blood",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "9a639d46-0de0-40c9-ad45-ab509c79e45e",
+    "timestamp": "2026-09-09T20:13:40.442169",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC010",
+    "details": {
+      "blood_group": "A-",
+      "component": "Platelets",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "664c43a0-febf-4014-8670-faab19fd35c1",
+    "timestamp": "2026-09-09T20:13:40.554993",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC010",
+    "details": {
+      "blood_group": "A-",
+      "component": "RBC",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "23d00102-a9a8-4943-8843-d1285003e7f9",
+    "timestamp": "2026-09-09T20:13:40.689777",
+    "event_type": "TRANSFER_REQUESTED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC011",
+    "details": {
+      "source_facility": "FAC015",
+      "needy_facility": "FAC011",
+      "blood_group": "AB+",
+      "component": "Whole Blood",
+      "units_requested": 8,
+      "distance_km": 3.34,
+      "transfer_type": "DIRECT",
+      "auto_confirmed": false
+    }
+  },
+  {
+    "event_id": "05e46502-444b-43c5-a176-9acc2fbdeefa",
+    "timestamp": "2026-09-09T20:13:40.714452",
+    "event_type": "COMPATIBILITY_USED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC011",
+    "details": {
+      "original_blood_group": "AB+",
+      "alternative_blood_group": "A+",
+      "component": "Whole Blood",
+      "reason": "Exact match unavailable, compatible alternative suggested"
+    }
+  },
+  {
+    "event_id": "a188d515-153a-4680-8067-b1f7bd120185",
+    "timestamp": "2026-09-09T20:13:40.834361",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC011",
+    "details": {
+      "blood_group": "AB-",
+      "component": "RBC",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "dea34e32-9f91-4737-b484-8835f430ab40",
+    "timestamp": "2026-09-09T20:13:40.975959",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC014",
+    "details": {
+      "blood_group": "AB+",
+      "component": "Platelets",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "f75316c5-b207-4265-9601-f07f7a967b3e",
+    "timestamp": "2026-09-09T20:13:41.116315",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC014",
+    "details": {
+      "blood_group": "AB+",
+      "component": "RBC",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "70d917bb-3550-4f32-beaf-f7760cd84735",
+    "timestamp": "2026-09-09T20:13:41.236711",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC014",
+    "details": {
+      "blood_group": "O-",
+      "component": "RBC",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "ea795806-79d3-49dc-9cd9-017ead29a0ad",
+    "timestamp": "2026-09-09T20:13:41.350484",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC015",
+    "details": {
+      "blood_group": "AB-",
+      "component": "Platelets",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "85612940-798a-4b77-a786-09ae78d83687",
+    "timestamp": "2026-09-09T20:13:41.472872",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC019",
+    "details": {
+      "blood_group": "A-",
+      "component": "Whole Blood",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "59c4891d-8631-4896-a504-2aceb4a63c92",
+    "timestamp": "2026-09-09T20:13:41.608484",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC020",
+    "details": {
+      "blood_group": "AB+",
+      "component": "RBC",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "7d0e204e-b445-4386-9fce-7cddd0778c39",
+    "timestamp": "2026-09-09T20:13:41.743956",
+    "event_type": "TRANSFER_REQUESTED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC020",
+    "details": {
+      "source_facility": "FAC021",
+      "needy_facility": "FAC020",
+      "blood_group": "O-",
+      "component": "Plasma",
+      "units_requested": 8,
+      "distance_km": 17.88,
+      "transfer_type": "DIRECT",
+      "auto_confirmed": false
+    }
+  },
+  {
+    "event_id": "10858841-f9e0-4de8-8585-fa81b6d75aa2",
+    "timestamp": "2026-09-09T20:13:41.773363",
+    "event_type": "COMPATIBILITY_USED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC020",
+    "details": {
+      "original_blood_group": "O-",
+      "alternative_blood_group": "O+",
+      "component": "Plasma",
+      "reason": "Exact match unavailable, compatible alternative suggested"
+    }
+  },
+  {
+    "event_id": "d4f510e7-219b-4c0e-a1c3-d746da8a2357",
+    "timestamp": "2026-09-09T20:13:41.895601",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC020",
+    "details": {
+      "blood_group": "O-",
+      "component": "Whole Blood",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "d5679c56-5cb4-427e-bbff-dc6ddf95cf0a",
+    "timestamp": "2026-09-09T20:13:42.098659",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC021",
+    "details": {
+      "blood_group": "A-",
+      "component": "Plasma",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "fbb2bd08-191e-47bd-87cb-40c7746bc2a5",
+    "timestamp": "2026-09-09T20:13:42.222530",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC021",
+    "details": {
+      "blood_group": "AB+",
+      "component": "Plasma",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "0f582366-6f08-497c-abc9-1e43de072a14",
+    "timestamp": "2026-09-09T20:13:42.347968",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC021",
+    "details": {
+      "blood_group": "B-",
+      "component": "RBC",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "cc7bac4b-176b-440b-a2ec-79694c89fbc7",
+    "timestamp": "2026-09-09T20:13:42.472804",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC021",
+    "details": {
+      "blood_group": "O-",
+      "component": "Whole Blood",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "8eb9093c-cd18-4ea7-800d-b30c40aba4ca",
+    "timestamp": "2026-09-09T20:13:42.607713",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC022",
+    "details": {
+      "blood_group": "AB+",
+      "component": "Platelets",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "e719c441-8fb4-4c87-907b-73248ffa9cc6",
+    "timestamp": "2026-09-09T20:13:42.758235",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC023",
+    "details": {
+      "blood_group": "AB+",
+      "component": "Platelets",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "7d8f8400-81c8-41f6-938f-f1469909bd17",
+    "timestamp": "2026-09-09T20:13:42.896829",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC023",
+    "details": {
+      "blood_group": "AB+",
+      "component": "RBC",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "69ba9a97-a096-4498-84a6-a05c58384a8b",
+    "timestamp": "2026-09-09T20:13:43.039059",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC024",
+    "details": {
+      "blood_group": "AB+",
+      "component": "Platelets",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "612c5305-0200-4142-a58a-1f0ad26cbf65",
+    "timestamp": "2026-09-09T20:13:43.180723",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC024",
+    "details": {
+      "blood_group": "AB+",
+      "component": "Whole Blood",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "c89b5905-3171-4537-bf2f-7d827426b838",
+    "timestamp": "2026-09-09T20:13:43.303756",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC024",
+    "details": {
+      "blood_group": "O-",
+      "component": "RBC",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "b317be6b-85e9-4a0d-b307-cb8bb3490af8",
+    "timestamp": "2026-09-09T20:13:43.438624",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC028",
+    "details": {
+      "blood_group": "AB+",
+      "component": "RBC",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "73a45f71-6b8c-451e-b538-ccfb8c061974",
+    "timestamp": "2026-09-09T20:13:43.567693",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC028",
+    "details": {
+      "blood_group": "O-",
+      "component": "Whole Blood",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "626b6ca8-90b6-48a8-a417-7efe21217d32",
+    "timestamp": "2026-09-09T20:13:43.728070",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC029",
+    "details": {
+      "blood_group": "AB+",
+      "component": "RBC",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "b0f233c2-8001-448c-94a7-d7a2adf95818",
+    "timestamp": "2026-09-09T20:13:43.865465",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC029",
+    "details": {
+      "blood_group": "O-",
+      "component": "Plasma",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "84f3338f-442d-40eb-8080-434f6435d34b",
+    "timestamp": "2026-09-09T20:13:43.992779",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC030",
+    "details": {
+      "blood_group": "AB+",
+      "component": "Plasma",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "80c36077-9da9-465b-a338-fc00f0db2915",
+    "timestamp": "2026-09-09T20:13:44.145940",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC030",
+    "details": {
+      "blood_group": "AB+",
+      "component": "Whole Blood",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "5cd7b0a0-5657-4799-b132-dcec810ef1f6",
+    "timestamp": "2026-09-09T20:13:44.267341",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC030",
+    "details": {
+      "blood_group": "O-",
+      "component": "RBC",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "76e460a0-83bf-4838-a3db-5b54396fa548",
+    "timestamp": "2026-09-09T20:13:44.410271",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC031",
+    "details": {
+      "blood_group": "AB+",
+      "component": "Whole Blood",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "e632a135-1775-448e-9679-aeebbc96626e",
+    "timestamp": "2026-09-09T20:13:44.554793",
+    "event_type": "TRANSFER_REQUESTED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC031",
+    "details": {
+      "source_facility": "FAC032",
+      "needy_facility": "FAC031",
+      "blood_group": "B+",
+      "component": "Platelets",
+      "units_requested": 4,
+      "distance_km": 14.5,
+      "transfer_type": "DIRECT",
+      "auto_confirmed": false
+    }
+  },
+  {
+    "event_id": "f076cd67-9f76-40b2-a222-72340ecb7989",
+    "timestamp": "2026-09-09T20:13:44.585035",
+    "event_type": "COMPATIBILITY_USED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC031",
+    "details": {
+      "original_blood_group": "B+",
+      "alternative_blood_group": "O+",
+      "component": "Platelets",
+      "reason": "Exact match unavailable, compatible alternative suggested"
+    }
+  },
+  {
+    "event_id": "7657f93d-69f3-4424-aee6-8d3aff713626",
+    "timestamp": "2026-09-09T20:13:44.616330",
+    "event_type": "VAN_REASSIGNED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC031",
+    "details": {
+      "completed_delivery": {
+        "blood_group": "B+",
+        "component": "Platelets"
+      },
+      "reassigned_to": {
+        "from": "FAC031",
+        "to": "FAC033",
+        "units": [
+          "UNIT02816",
+          "UNIT02821",
+          "UNIT02827",
+          "UNIT02876"
+        ],
+        "distance_km": 6.55,
+        "prep_time_minutes": 45
+      }
+    }
+  },
+  {
+    "event_id": "acb7b644-7d65-4cb5-b00c-1dd48451f9c9",
+    "timestamp": "2026-09-09T20:13:44.741679",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC032",
+    "details": {
+      "blood_group": "A-",
+      "component": "Platelets",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "b70553bc-49f3-4fed-9af6-29d061a2f2aa",
+    "timestamp": "2026-09-09T20:13:44.887199",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC032",
+    "details": {
+      "blood_group": "AB+",
+      "component": "Platelets",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "d246dd02-3725-4044-b2bd-ae70d1ab03af",
+    "timestamp": "2026-09-09T20:13:45.032529",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC032",
+    "details": {
+      "blood_group": "AB+",
+      "component": "Whole Blood",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "1b2ea95e-efb9-4a0d-b8cf-71093f3d1dec",
+    "timestamp": "2026-09-09T20:13:45.204180",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC032",
+    "details": {
+      "blood_group": "B+",
+      "component": "Whole Blood",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "8d924fbe-4426-44c3-ac71-3451c0afdd1a",
+    "timestamp": "2026-09-09T20:13:45.330008",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC033",
+    "details": {
+      "blood_group": "O-",
+      "component": "Whole Blood",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "73eca0f6-6fbb-46bc-afea-c40707cad811",
+    "timestamp": "2026-09-09T20:13:45.476344",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC037",
+    "details": {
+      "blood_group": "AB+",
+      "component": "RBC",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "31229394-ce5f-482d-a91b-493865201005",
+    "timestamp": "2026-09-09T20:13:45.622745",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC037",
+    "details": {
+      "blood_group": "AB+",
+      "component": "Whole Blood",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "4e8324f3-d9ba-417f-96a4-fd6dd8fd9a73",
+    "timestamp": "2026-09-09T20:13:45.753734",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC037",
+    "details": {
+      "blood_group": "O-",
+      "component": "Whole Blood",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "2ba05036-1531-4ce7-9ef0-a261289170a6",
+    "timestamp": "2026-09-09T20:13:45.871951",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC038",
+    "details": {
+      "blood_group": "AB+",
+      "component": "Whole Blood",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "c95a15d1-d872-4af6-b0b7-3e4d4349e179",
+    "timestamp": "2026-09-09T20:13:45.999845",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC040",
+    "details": {
+      "blood_group": "O-",
+      "component": "RBC",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "3c77801f-f2bf-4786-983f-a4723bf52833",
+    "timestamp": "2026-09-09T20:13:46.168732",
+    "event_type": "TRANSFER_REQUESTED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC041",
+    "details": {
+      "source_facility": "FAC040",
+      "needy_facility": "FAC041",
+      "blood_group": "A+",
+      "component": "Whole Blood",
+      "units_requested": 4,
+      "distance_km": 9.9,
+      "transfer_type": "DIRECT",
+      "auto_confirmed": false
+    }
+  },
+  {
+    "event_id": "86e034eb-d61e-4367-973e-85c0478ee0ba",
+    "timestamp": "2026-09-09T20:13:46.202807",
+    "event_type": "COMPATIBILITY_USED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC041",
+    "details": {
+      "original_blood_group": "A+",
+      "alternative_blood_group": "O+",
+      "component": "Whole Blood",
+      "reason": "Exact match unavailable, compatible alternative suggested"
+    }
+  },
+  {
+    "event_id": "b1822ea0-25f0-4236-a837-a8070ed07ad7",
+    "timestamp": "2026-09-09T20:13:46.234971",
+    "event_type": "VAN_REASSIGNED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC041",
+    "details": {
+      "completed_delivery": {
+        "blood_group": "A+",
+        "component": "Whole Blood"
+      },
+      "reassigned_to": {
+        "from": "FAC041",
+        "to": "FAC037",
+        "units": [
+          "UNIT03707"
+        ],
+        "distance_km": 10.64,
+        "prep_time_minutes": 45
+      }
+    }
+  },
+  {
+    "event_id": "5277c24d-85f3-4fff-bb28-83f87bc7a6dc",
+    "timestamp": "2026-09-09T20:13:46.323061",
+    "event_type": "TRANSFER_REQUESTED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC041",
+    "details": {
+      "source_facility": "FAC038",
+      "needy_facility": "FAC041",
+      "blood_group": "B+",
+      "component": "RBC",
+      "units_requested": 4,
+      "distance_km": 5.32,
+      "transfer_type": "DIRECT",
+      "auto_confirmed": false
+    }
+  },
+  {
+    "event_id": "9696235e-c916-47f3-af03-78befc53fa81",
+    "timestamp": "2026-09-09T20:13:46.451769",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC046",
+    "details": {
+      "blood_group": "AB+",
+      "component": "Plasma",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "e11f7589-3f17-4031-ab06-40f4b2458e65",
+    "timestamp": "2026-09-09T20:13:46.590901",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC046",
+    "details": {
+      "blood_group": "AB+",
+      "component": "Platelets",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "5c9405da-3e4b-49b6-a029-b460532a2578",
+    "timestamp": "2026-09-09T20:13:46.738466",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC046",
+    "details": {
+      "blood_group": "AB+",
+      "component": "RBC",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "115cadc5-4541-41c9-b6b3-f37fe22e1132",
+    "timestamp": "2026-09-09T20:13:46.886076",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC047",
+    "details": {
+      "blood_group": "AB+",
+      "component": "Platelets",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "509c268f-2d6b-48be-8d2a-6262a19c976e",
+    "timestamp": "2026-09-09T20:13:47.037344",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC047",
+    "details": {
+      "blood_group": "AB+",
+      "component": "RBC",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "19bdd4ae-1f11-415b-b338-6a51b145ac56",
+    "timestamp": "2026-09-09T20:13:47.172112",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC047",
+    "details": {
+      "blood_group": "AB+",
+      "component": "Whole Blood",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "c411f6e7-1e35-4b90-91d4-a723fef6cd6f",
+    "timestamp": "2026-09-09T20:13:47.332273",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC048",
+    "details": {
+      "blood_group": "AB+",
+      "component": "Plasma",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "42ef4d2f-8385-46db-8a7e-6305e3077eb1",
+    "timestamp": "2026-09-09T20:13:47.472706",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC048",
+    "details": {
+      "blood_group": "AB+",
+      "component": "Platelets",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "42a108ec-f655-42a7-9350-6c74c6465c2c",
+    "timestamp": "2026-09-09T20:13:47.621134",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC049",
+    "details": {
+      "blood_group": "AB+",
+      "component": "Platelets",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "1e171a2e-33e7-4671-885b-5f8fdc48751d",
+    "timestamp": "2026-09-09T20:13:47.783116",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC049",
+    "details": {
+      "blood_group": "AB+",
+      "component": "Whole Blood",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "669a04b4-bbdf-4ca6-8f21-0480b7a89e40",
+    "timestamp": "2026-09-09T20:13:47.887932",
+    "event_type": "TRANSFER_REQUESTED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC049",
+    "details": {
+      "source_facility": "FAC050",
+      "needy_facility": "FAC049",
+      "blood_group": "B+",
+      "component": "RBC",
+      "units_requested": 4,
+      "distance_km": 10.75,
+      "transfer_type": "DIRECT",
+      "auto_confirmed": false
+    }
+  },
+  {
+    "event_id": "acc3736b-906f-4c5e-ba43-74b03bb9beb0",
+    "timestamp": "2026-09-09T20:13:48.043709",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC050",
+    "details": {
+      "blood_group": "AB+",
+      "component": "Platelets",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "af97bbf0-cd36-4ead-a811-c489289aed08",
+    "timestamp": "2026-09-09T20:13:48.174786",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC051",
+    "details": {
+      "blood_group": "A-",
+      "component": "Whole Blood",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "1369018f-1fd2-4a9b-86fa-9dce8adfc747",
+    "timestamp": "2026-09-09T20:13:48.320595",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC051",
+    "details": {
+      "blood_group": "AB+",
+      "component": "Whole Blood",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "450de75b-7968-434c-aa35-06a57a438946",
+    "timestamp": "2026-09-09T20:13:48.468032",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC001",
+    "details": {
+      "blood_group": "A+",
+      "component": "RBC",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "cf1328a1-ed5e-4a87-abc8-937045b5d93f",
+    "timestamp": "2026-09-09T20:13:48.642478",
+    "event_type": "TRANSFER_REQUESTED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC001",
+    "details": {
+      "source_facility": "FAC005",
+      "needy_facility": "FAC001",
+      "blood_group": "A+",
+      "component": "Whole Blood",
+      "units_requested": 7,
+      "distance_km": 7.26,
+      "transfer_type": "DIRECT",
+      "auto_confirmed": false
+    }
+  },
+  {
+    "event_id": "97324dfa-4a21-42ca-829c-4eec75260de1",
+    "timestamp": "2026-09-09T20:13:48.677254",
+    "event_type": "COMPATIBILITY_USED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC001",
+    "details": {
+      "original_blood_group": "A+",
+      "alternative_blood_group": "O+",
+      "component": "Whole Blood",
+      "reason": "Exact match unavailable, compatible alternative suggested"
+    }
+  },
+  {
+    "event_id": "474facb0-e3cb-4172-96b5-93f9b381b382",
+    "timestamp": "2026-09-09T20:13:48.710707",
+    "event_type": "VAN_REASSIGNED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC001",
+    "details": {
+      "completed_delivery": {
+        "blood_group": "A+",
+        "component": "Whole Blood"
+      },
+      "reassigned_to": {
+        "from": "FAC001",
+        "to": "FAC002",
+        "units": [
+          "UNIT00018"
+        ],
+        "distance_km": 13.73,
+        "prep_time_minutes": 30
+      }
+    }
+  },
+  {
+    "event_id": "6c7b3229-efb0-4c06-9fbc-4f9e5731c836",
+    "timestamp": "2026-09-09T20:13:48.842044",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC001",
+    "details": {
+      "blood_group": "A-",
+      "component": "Whole Blood",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "57684815-c5a4-4040-b175-1f37d51110e1",
+    "timestamp": "2026-09-09T20:13:48.995921",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC001",
+    "details": {
+      "blood_group": "AB+",
+      "component": "Platelets",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "5c6489f6-ffc0-41e3-b4c0-cf174e70dd40",
+    "timestamp": "2026-09-09T20:13:49.124849",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC002",
+    "details": {
+      "blood_group": "AB+",
+      "component": "Plasma",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "8ef493d6-95a7-4cd6-a71a-d51fe93285e2",
+    "timestamp": "2026-09-09T20:13:49.274155",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC002",
+    "details": {
+      "blood_group": "AB+",
+      "component": "RBC",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "67a9bdf5-3cd6-47a3-ad2a-ab6a4a80bc81",
+    "timestamp": "2026-09-09T20:13:49.408765",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC003",
+    "details": {
+      "blood_group": "AB+",
+      "component": "Plasma",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "acdc41af-0caf-451c-b919-a713928e4ebe",
+    "timestamp": "2026-09-09T20:13:49.563203",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC003",
+    "details": {
+      "blood_group": "AB+",
+      "component": "Whole Blood",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "6b63521a-c55a-4e8c-80f6-8c431c273546",
+    "timestamp": "2026-09-09T20:13:49.693255",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC003",
+    "details": {
+      "blood_group": "O-",
+      "component": "Plasma",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "eb36654b-4dc7-44ef-adbb-1010ec7482ac",
+    "timestamp": "2026-09-09T20:13:49.790579",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC010",
+    "details": {
+      "blood_group": "AB+",
+      "component": "Plasma",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "1647357f-1c17-4607-a1bb-97d63bd5768e",
+    "timestamp": "2026-09-09T20:13:49.888149",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC011",
+    "details": {
+      "blood_group": "A-",
+      "component": "Whole Blood",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "4d65fe00-ac03-4fbb-af91-91c517508934",
+    "timestamp": "2026-09-09T20:13:50.021123",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC011",
+    "details": {
+      "blood_group": "AB+",
+      "component": "Plasma",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "03ec5506-5916-44f7-bb69-100907f58da6",
+    "timestamp": "2026-09-09T20:13:50.185903",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC011",
+    "details": {
+      "blood_group": "AB+",
+      "component": "RBC",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "6bcb718e-c49a-41cd-8aee-b3d2a9897b9f",
+    "timestamp": "2026-09-09T20:13:50.338963",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC012",
+    "details": {
+      "blood_group": "AB+",
+      "component": "Platelets",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "dd6b739a-0e6a-4a9b-919b-0ca5fd56d2e1",
+    "timestamp": "2026-09-09T20:13:50.475089",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC019",
+    "details": {
+      "blood_group": "AB+",
+      "component": "Plasma",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "b291e0eb-8a61-4cc5-baa5-7649c0577ec2",
+    "timestamp": "2026-09-09T20:13:50.629128",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC019",
+    "details": {
+      "blood_group": "AB+",
+      "component": "Platelets",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "95cc1198-b46e-4630-824b-bef0729fbd29",
+    "timestamp": "2026-09-09T20:13:50.781660",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC019",
+    "details": {
+      "blood_group": "AB+",
+      "component": "RBC",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "54e8135f-9a6e-488f-9db4-b3c3ddec8d98",
+    "timestamp": "2026-09-09T20:13:50.932606",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC020",
+    "details": {
+      "blood_group": "AB+",
+      "component": "Platelets",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "deceb912-2a2f-4e10-b122-0fed3769bc61",
+    "timestamp": "2026-09-09T20:13:51.084261",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC021",
+    "details": {
+      "blood_group": "A+",
+      "component": "RBC",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "9aba48f1-c24c-4d52-b1de-9bd4bdd32e5b",
+    "timestamp": "2026-09-09T20:13:51.271909",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC028",
+    "details": {
+      "blood_group": "A+",
+      "component": "Whole Blood",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "94cdfd1c-be27-4fea-88f1-d804048910a1",
+    "timestamp": "2026-09-09T20:13:51.419069",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC028",
+    "details": {
+      "blood_group": "AB+",
+      "component": "Platelets",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "43bea3ab-2a9b-4072-a747-0f0f4b6df7a1",
+    "timestamp": "2026-09-09T20:13:51.571900",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC029",
+    "details": {
+      "blood_group": "A+",
+      "component": "Platelets",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "774e142c-c4c0-483d-b6dc-20aa771d6b96",
+    "timestamp": "2026-09-09T20:13:51.723717",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC030",
+    "details": {
+      "blood_group": "AB+",
+      "component": "Platelets",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "eac9f7c1-ed06-4306-a6bf-de7f7cf1650c",
+    "timestamp": "2026-09-09T20:13:51.855035",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC037",
+    "details": {
+      "blood_group": "AB+",
+      "component": "Plasma",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "2e45835c-ca67-4908-b47e-8a06e3495ca3",
+    "timestamp": "2026-09-09T20:13:52.006258",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC038",
+    "details": {
+      "blood_group": "A+",
+      "component": "Plasma",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "addb72f7-8b74-4c2b-9929-69e90088d16c",
+    "timestamp": "2026-09-09T20:13:52.160520",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC038",
+    "details": {
+      "blood_group": "AB+",
+      "component": "RBC",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "7fc9c39b-8c5f-4cb0-a241-a4dd01fce178",
+    "timestamp": "2026-09-09T20:13:52.312118",
+    "event_type": "TRANSFER_REQUESTED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC039",
+    "details": {
+      "source_facility": "FAC038",
+      "needy_facility": "FAC039",
+      "blood_group": "A+",
+      "component": "Platelets",
+      "units_requested": 7,
+      "distance_km": 8.88,
+      "transfer_type": "DIRECT",
+      "auto_confirmed": false
+    }
+  },
+  {
+    "event_id": "da53dada-1ae9-471b-ab2b-23d98e59d1b9",
+    "timestamp": "2026-09-09T20:13:52.351129",
+    "event_type": "COMPATIBILITY_USED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC039",
+    "details": {
+      "original_blood_group": "A+",
+      "alternative_blood_group": "O+",
+      "component": "Platelets",
+      "reason": "Exact match unavailable, compatible alternative suggested"
+    }
+  },
+  {
+    "event_id": "957dd741-4a0a-43ed-b751-c6e89f349ddf",
+    "timestamp": "2026-09-09T20:13:52.498729",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC039",
+    "details": {
+      "blood_group": "AB+",
+      "component": "Whole Blood",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "165bd48f-236d-4642-a8bf-599c40314a86",
+    "timestamp": "2026-09-09T20:13:52.635418",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC039",
+    "details": {
+      "blood_group": "B+",
+      "component": "Plasma",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "bf3bfeb0-f169-4be3-82bc-33f4bbfc836d",
+    "timestamp": "2026-09-09T20:13:52.773829",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC047",
+    "details": {
+      "blood_group": "AB+",
+      "component": "Plasma",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "02bfb780-4d7c-4368-8d54-21d1fbdb9991",
+    "timestamp": "2026-09-09T20:13:52.967533",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC048",
+    "details": {
+      "blood_group": "O-",
+      "component": "Plasma",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "51608250-fb1c-4452-ac77-ae72697145d0",
+    "timestamp": "2026-09-09T20:13:53.222728",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC002",
+    "details": {
+      "blood_group": "B+",
+      "component": "Whole Blood",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "0b0eda0c-5211-405d-bc07-ed8dc92081e9",
+    "timestamp": "2026-09-09T20:13:53.374223",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC010",
+    "details": {
+      "blood_group": "A+",
+      "component": "Platelets",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "3b5d862f-89c5-461a-ae73-a205caccd5ad",
+    "timestamp": "2026-09-09T20:13:53.558893",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC010",
+    "details": {
+      "blood_group": "A+",
+      "component": "Whole Blood",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "c0977790-19ad-45a4-a186-9044f2414931",
+    "timestamp": "2026-09-09T20:13:53.714607",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC010",
+    "details": {
+      "blood_group": "AB+",
+      "component": "RBC",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "27525012-469a-4f5a-8b8a-838bf15cfce2",
+    "timestamp": "2026-09-09T20:13:53.868264",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC010",
+    "details": {
+      "blood_group": "AB+",
+      "component": "Whole Blood",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "b034273e-dae1-4966-b539-82d45b8847c8",
+    "timestamp": "2026-09-09T20:13:54.084882",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC010",
+    "details": {
+      "blood_group": "B+",
+      "component": "RBC",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "5e2044c9-4018-4400-b3eb-1e6b935c14c1",
+    "timestamp": "2026-09-09T20:13:54.248657",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC011",
+    "details": {
+      "blood_group": "A+",
+      "component": "Plasma",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "51358eb8-b8c5-4e64-9aef-654c655fb2ab",
+    "timestamp": "2026-09-09T20:13:54.412489",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC012",
+    "details": {
+      "blood_group": "A+",
+      "component": "RBC",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "5e612bf2-5e75-4285-bfb3-c51678d8fddc",
+    "timestamp": "2026-09-09T20:13:54.623369",
+    "event_type": "TRANSFER_REQUESTED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC012",
+    "details": {
+      "source_facility": "FAC014",
+      "needy_facility": "FAC012",
+      "blood_group": "A+",
+      "component": "Whole Blood",
+      "units_requested": 6,
+      "distance_km": 8.47,
+      "transfer_type": "DIRECT",
+      "auto_confirmed": false
+    }
+  },
+  {
+    "event_id": "dd0e2212-2a9d-434c-84bf-3f3b887ae650",
+    "timestamp": "2026-09-09T20:13:54.663309",
+    "event_type": "COMPATIBILITY_USED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC012",
+    "details": {
+      "original_blood_group": "A+",
+      "alternative_blood_group": "O+",
+      "component": "Whole Blood",
+      "reason": "Exact match unavailable, compatible alternative suggested"
+    }
+  },
+  {
+    "event_id": "399c8d48-26f3-466b-9d3d-b87ccbe6c70e",
+    "timestamp": "2026-09-09T20:13:54.816243",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC019",
+    "details": {
+      "blood_group": "AB+",
+      "component": "Whole Blood",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "4b7841c9-0e16-4bda-a940-81fe70e75b0f",
+    "timestamp": "2026-09-09T20:13:54.974012",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC019",
+    "details": {
+      "blood_group": "B+",
+      "component": "Platelets",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "b3205dab-a9b2-4ed7-854d-0c2c4a8dc2df",
+    "timestamp": "2026-09-09T20:13:55.115078",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC029",
+    "details": {
+      "blood_group": "AB+",
+      "component": "Plasma",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "4669e898-ab90-4598-b7c9-2d18060e7dd7",
+    "timestamp": "2026-09-09T20:13:55.284255",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC039",
+    "details": {
+      "blood_group": "AB+",
+      "component": "Platelets",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "eb99b0fa-140b-44d0-8fd4-fd6ae86880f3",
+    "timestamp": "2026-09-09T20:13:55.457276",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC039",
+    "details": {
+      "blood_group": "AB+",
+      "component": "RBC",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "91f772dc-8f40-4088-b9f3-9d4e70a464a9",
+    "timestamp": "2026-09-09T20:13:55.615762",
+    "event_type": "TRANSFER_REQUESTED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC046",
+    "details": {
+      "source_facility": "FAC051",
+      "needy_facility": "FAC046",
+      "blood_group": "A+",
+      "component": "Platelets",
+      "units_requested": 6,
+      "distance_km": 4.45,
+      "transfer_type": "DIRECT",
+      "auto_confirmed": false
+    }
+  },
+  {
+    "event_id": "57c55d35-25a7-4f65-a526-34661eb18732",
+    "timestamp": "2026-09-09T20:13:55.662173",
+    "event_type": "COMPATIBILITY_USED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC046",
+    "details": {
+      "original_blood_group": "A+",
+      "alternative_blood_group": "O+",
+      "component": "Platelets",
+      "reason": "Exact match unavailable, compatible alternative suggested"
+    }
+  },
+  {
+    "event_id": "4b251b30-04a0-4dd3-9b89-3115653f3310",
+    "timestamp": "2026-09-09T20:13:55.844983",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC046",
+    "details": {
+      "blood_group": "AB+",
+      "component": "Whole Blood",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  },
+  {
+    "event_id": "c6799ab6-cf33-4a9a-b1ac-ec59294f77b6",
+    "timestamp": "2026-09-09T20:13:55.989808",
+    "event_type": "ADMIN_FLAGGED",
+    "priority": "SHORTAGE",
+    "actor_facility": "FAC047",
+    "details": {
+      "blood_group": "A+",
+      "component": "Plasma",
+      "reason": "No viable transfer found \u2014 no surplus, no compatible alternative within range"
+    }
+  }
+]

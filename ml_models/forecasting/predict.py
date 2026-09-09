@@ -10,9 +10,11 @@ import pandas as pd
 import numpy as np
 import pickle
 from datetime import date, timedelta
+import os
 
 # ── Load model ────────────────────────────────────────────────────
-with open("../forecasting_model.pkl", "rb") as f:
+BASE_DIR = os.path.dirname(os.path.abspath(__file__))
+with open(os.path.join(BASE_DIR, "..", "forecasting_model.pkl"), "rb") as f:
     model = pickle.load(f)
 
 FEATURES = ['rolling_avg_7d', 'rolling_avg_30d', 'month',

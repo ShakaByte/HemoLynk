@@ -7,13 +7,15 @@ Ties together: scoring → compatibility → transfer planning
 """
 
 import pandas as pd
+import sys
+import os
+sys.path.insert(0, os.path.dirname(os.path.abspath(__file__)))
+
 from scoring import score_facilities, SURPLUS_STOCK
 from relay import find_transfer, check_van_reassignment
 from audit import (log_transfer_requested, log_partial_fulfillment,
                    log_van_reassigned, log_admin_flagged,
                    log_compatibility_used, print_log_summary)
-import os
-
 
 def build_van_availability(facilities_df):
     """
