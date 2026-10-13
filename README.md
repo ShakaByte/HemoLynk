@@ -1,59 +1,40 @@
-HemoLynk- AI driven Blood Bank Management System with Risk Redistribution Engine
+# 🩸 HemoLynk
 
-AI-Driven Blood Bank Inventory Management System with Risk Redistribution Engine
+AI-driven blood bank inventory management system with a risk redistribution engine.
 
-1. Problem Statement
-   India collects ~14.6M blood units annually — enough to meet national demand — yet suffers simultaneous wastage and shortage due to systemic fragmentation:
-   No centralized real-time inventory visibility; facilities rely on phone calls and manual registers
-   Manual redistribution is too slow to intercept near-expiry units (44,000 units wasted in Karnataka alone in one reporting period).
-   Rural "blood deserts" lack logistics infrastructure for last-mile delivery.
-   Hospitals, NGOs, blood banks, and donors operate in silos, preventing coordinated response during surge events.
+## 📌 Overview
 
-3. Target User	Need:
-   Blood bank / hospital admins	Real-time stock visibility, shortage alerts, redistribution requests
-   Facility coordinators (rural/Tier 2-3)	Fast access to surplus stock from other facilities
-   NGOs / govt blood transfusion councils	Oversight across a network of facilities
-   Donors	Easy registration, matching, and donation scheduling
-   Transport/logistics operators	Optimized delivery routes between facilities
+HemoLynk is a cross-platform app that gives blood banks, hospitals, and donors a single real-time view of blood stock across a network of facilities. It predicts shortages, flags near-expiry units, and suggests where to redistribute them and by which route.
 
-4. Goals
-   Cut blood wastage from expiry through proactive detection and redistribution.
-   Speed up redistribution to underserved/rural facilities.
-   Improve donor screening and donor-recipient matching.
-   Provide a single real-time source of truth for blood stock across a network.
+## ❗ Problem Statement
 
-5. Core Features
-   Unified Inventory Dashboard – real-time stock by blood group/component across all registered facilities.
-   Predictive Shortage Forecasting (ML) – Scikit-Learn regression model flags "O- will run out in 2 days" type alerts using historical usage.
-   Risk Redistribution Engine – greedy scoring algorithm ranks high-risk hospitals and triggers reallocation of near-expiry stock.
-   Route Optimization – Dijkstra's algorithm + Google Maps Distance Matrix API to compute fastest transport routes for redistribution vans.
-   Donor Vault – donor profile registry with matching logic (blood group, location, eligibility, donation history) and FCM notifications.
-   Notifications – push alerts to facility managers/donors/admins for low stock, expiry risk, and redistribution requests.
+India collects ~14.6M blood units a year, enough to meet demand, yet faces wastage and shortage at the same time:
+- No centralized real-time inventory. Facilities rely on phone calls and manual registers.
+- Manual redistribution is too slow to save near-expiry units (about 44,000 units wasted in Karnataka in one reporting period).
+- Rural "blood deserts" lack last-mile logistics.
+- Hospitals, NGOs, blood banks, and donors work in silos.
 
-6. MVP Scope In:
-   Facility onboarding + manual/CSV inventory entry
-   Real-time dashboard (stock by facility, blood group, expiry date)
-   Expiry forecasting (Linear Regression on historical + synthetic data)
-   Greedy-scoring redistribution engine (single-region scope)
-   Dijkstra-based route suggestion between 2 facilities (no live van tracking)
-   Donor registration + basic matching (blood group + location)
-   Push notifications (FCM) for shortage/expiry/redistribution events
-   Android app (Flutter) + admin web dashboard
+## ✅ Solution
 
-7. Out-of-Scope (for MVP)
-   Laboratory Information System (LIS) integration
-   Live GPS van tracking (route suggestion only, not real-time fleet tracking)
-   Blockchain-based security/audit trail
-   Multilingual IVR/SMS donor outreach
-   iOS app (Android + web only)
-   Gamification for donor retention
-   Multi-region/national scale redistribution (single-region MVP)
-   Automated fraud/anomaly detection on requests
+- **Unified dashboard:** real-time stock by facility, blood group, and expiry date
+- **Shortage forecasting:** Random Forest model predicts stockouts from historical usage
+- **Risk redistribution engine:** greedy scoring ranks high-risk facilities and suggests reallocation of near-expiry stock, with score rationale shown to admins
+- **Route optimization:** Dijkstra's algorithm finds the fastest path between facilities
+- **Donor vault:** registration and matching by blood group, location, and eligibility
+- **Role-based access** for admins, donors, and employees
 
-9. Acceptance Criteria (MVP)
-Dashboard reflects inventory changes across facilities within 5 minutes of update.
-Shortage prediction generates an alert at least 24 hours before a facility's projected stockout for a given blood type.
-Redistribution engine returns a ranked list of eligible receiving facilities for any flagged near-expiry unit, with score rationale visible to admin.
-Route suggestion returns a valid path with estimated distance/time for any two onboarded facilities within the region.
-Donor can register, and system returns matching donors for a given blood group + location query.
-All critical alerts (shortage, expiry, redistribution) trigger FCM push notifications to relevant users.
+## 🛠️ Tech Stack
+
+| Layer | Technology |
+|-------|------------|
+| Frontend | Flutter |
+| Backend | FastAPI, Python |
+| Database / Auth | Firebase |
+| ML | Scikit-Learn (Random Forest) |
+| Algorithms | Greedy scoring, Dijkstra |
+
+## 📊 Scope
+
+- 54 facilities across 6 districts
+- Synthetic dataset: 1000+ inventory records, 1000 donors
+- Tested with 9 accounts (3 per role)
