@@ -38,3 +38,7 @@ India collects ~14.6M blood units a year, enough to meet demand, yet faces wasta
 - 54 facilities across 6 districts
 - Synthetic dataset: 1000+ inventory records, 1000 donors
 - Tested with 9 accounts (3 per role)
+
+## 👤 Author
+
+**Vedant Pokale** ([ShakaByte](https://github.com/ShakaByte))
